@@ -2,13 +2,15 @@
 
 
 # Asterisk
-
 print(2*3) # multiplication
 print(2**3) # exponential multiplication
 
 # Slash
 print(6/2) # division with float output
-print(6//2) # division with no float output
+print(6//2) # division with no float output rounded values
+
+print(6//4) # division with no float output rounded values
+print(6/4) # division with no float output in decimals
 
 # Percent symbol
 print (6%3) # modulus remainder whereby output is 0
