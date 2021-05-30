@@ -14,7 +14,7 @@ print("  *   *" * 2)
 print("  *****" * 2)
 
 
-# data types in python aka python literals
+# Data Types & Literals in Python
 
 # string
 a = "2"
