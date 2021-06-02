@@ -31,3 +31,27 @@ print()
 print((5 * ((25 % 13) + 100) / (2 * 13)) // 2) # output is 10.0
 print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4)) # -0.5 0.5 0 -1
 print((2 % -4), (2 % 4), (2 ** 3 ** 2)) # -2 2 512
+print(25.0**0.5)
+
+
+
+# Kilometers and Miles Converter
+
+#kilometers = 12.25
+#miles = 7.38
+
+kilometers = float(input("Enter kilometers: "))
+miles = float(input("Enter miles: "))
+
+
+miles_to_kilometers = miles * 1.61
+kilometers_to_miles = kilometers/1.61
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
+# Order of Operations
+a = 6
+b = 3
+a /= 2 * b
+print(a)
