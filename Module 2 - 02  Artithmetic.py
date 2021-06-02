@@ -55,3 +55,8 @@ a = 6
 b = 3
 a /= 2 * b
 print(a)
+
+# Exercise
+x = float(input("Enter value for x: "))
+y = 1/(x+1/(x+1/(x+1/x))) #input: 1, expected output: 0.6000000000000001
+print("y =", y)
