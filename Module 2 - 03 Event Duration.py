@@ -15,14 +15,3 @@
 
 
 
-x = 1/2+3//3+4**2
-
-x1 = 4**2
-x2 = 3//3
-x3 = 1/2
-
-y = x1 + x2 + x3
-
-
-print("The total order of operations is -", x)
-print("The step by step order of operations is -", y)
