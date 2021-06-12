@@ -50,18 +50,30 @@
 # #print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 # #print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 
-# Order of Operations
-a = 6
-b = 3
-a //= 2 * b # // will return integer division
-print(a)
-
-a = 6
-b = 3
-a /= 2 * b # / will return a floating point
-print(a)
+# # Order of Operations
+# a = 6
+# b = 3
+# a //= 2 * b # // will return integer division
+# print(a)
+#
+# a = 6
+# b = 3
+# a /= 2 * b # / will return a floating point
+# print(a)
 
 # Exercise
 #x = float(input("Enter value for x: "))
 #y = 1/(x+1/(x+1/(x+1/x))) #input: 1, expected output: 0.6000000000000001
 #print("y =", y)
+
+x = 1/2+3//3+4**2
+
+x1 = 4**2
+x2 = 3//3
+x3 = 1/2
+
+y = x1 + x2 + x3
+
+
+print("The total order of operations is -", x)
+print("The step by step order of operations is -", y)
